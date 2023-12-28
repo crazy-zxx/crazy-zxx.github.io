@@ -1,20 +1,20 @@
-.layout>#post{
-  background: rgba(255,255,255,.7);
-}
-#aside-content>.sticky_layout>.card-widget{
-  background: rgba(255,255,255,.7);
-}
-#aside-content>.card-widget  {
+#page,
+#archive,
+.layout>#post,
+#recent-posts>.recent-post-item,
+#aside-content>.sticky_layout>.card-widget,
+#aside-content>.card-widget,
+#pagination > .pagination > a {
   background: rgba(255,255,255,.7);
 }
 
-[data-theme=dark] .layout>#post{
-  background: rgba(20,20,20,.7);
-}
-[data-theme=dark] #aside-content>.sticky_layout>.card-widget{
-  background: rgba(20,20,20,.7);
-}
-[data-theme=dark] #aside-content>.card-widget  {
+[data-theme=dark] #page,
+[data-theme=dark] #archive,
+[data-theme=dark] .layout>#post,
+[data-theme=dark] #recent-posts>.recent-post-item,
+[data-theme=dark] #aside-content>.sticky_layout>.card-widget,
+[data-theme=dark] #aside-content>.card-widget,
+[data-theme=dark] #pagination > .pagination > a {
   background: rgba(20,20,20,.7);
 }
 
