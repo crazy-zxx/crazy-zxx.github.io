@@ -1,5 +1,7 @@
 #page,
 #archive,
+#category,
+#tag,
 .layout>#post,
 #recent-posts>.recent-post-item,
 #aside-content>.sticky_layout>.card-widget,
@@ -10,6 +12,8 @@
 
 [data-theme=dark] #page,
 [data-theme=dark] #archive,
+[data-theme=dark] #category,
+[data-theme=dark] #tag,
 [data-theme=dark] .layout>#post,
 [data-theme=dark] #recent-posts>.recent-post-item,
 [data-theme=dark] #aside-content>.sticky_layout>.card-widget,
