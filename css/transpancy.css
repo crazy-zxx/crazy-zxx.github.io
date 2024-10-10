@@ -1,0 +1,28 @@
+#page,
+#archive,
+#category,
+#tag,
+.layout>#post,
+#recent-posts>.recent-post-item,
+#aside-content>.sticky_layout>.card-widget,
+#aside-content>.card-widget,
+#pagination > .pagination > a {
+  background: rgba(255,255,255,.7);
+}
+
+[data-theme=dark] #page,
+[data-theme=dark] #archive,
+[data-theme=dark] #category,
+[data-theme=dark] #tag,
+[data-theme=dark] .layout>#post,
+[data-theme=dark] #recent-posts>.recent-post-item,
+[data-theme=dark] #aside-content>.sticky_layout>.card-widget,
+[data-theme=dark] #aside-content>.card-widget,
+[data-theme=dark] #pagination > .pagination > a {
+  background: rgba(20,20,20,.7);
+}
+
+/* 页脚透明 */
+#footer {
+  background: rgba(0,0,0,.0);
+}
